@@ -1,0 +1,32 @@
+{
+  "name": "hubot-eve-tripwire",
+  "version": "0.0.1",
+  "description": "A Hubot script that integrates with Tripwire",
+  "main": "index.js",
+  "scripts": {
+    "develop": "babel src -d build --watch",
+    "build": "babel src -d build"
+  },
+  "keywords": [
+    "tripwire",
+    "eve",
+    "online",
+    "eve",
+    "hubot"
+  ],
+  "author": "George Sumpster",
+  "license": "MIT",
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-latest": "^6.16.0",
+    "eslint": "^3.11.1",
+    "eslint-config-google": "^0.7.1"
+  },
+  "dependencies": {
+    "node-dijkstra": "^2.3.0"
+  }
+}

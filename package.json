@@ -27,6 +27,7 @@
     "eslint-config-google": "^0.7.1"
   },
   "dependencies": {
-    "node-dijkstra": "^2.3.0"
+    "node-dijkstra": "^2.3.0",
+    "request": "^2.79.0"
   }
 }

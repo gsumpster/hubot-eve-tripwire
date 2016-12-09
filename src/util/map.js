@@ -4,7 +4,7 @@ import Graph from "node-dijkstra";
 // Files
 import map_data from "./data/jumps.json";
 
-var neweden_map = Graph(map_data);
+var neweden_map = new Graph(map_data);
 
 // Array of wormhole connection nodes.
 // e.g: [{'30002813': '30001376': 1}]
@@ -12,8 +12,8 @@ var wormhole_map = [];
 
 /**
 * Finds a path between two solar systems.
-* @param {Number} start - the starting solar system
-* @param {Number} dest - the destination solar system
+* @param {String} start - the starting solar system
+* @param {String} dest - the destination solar system
 * @return {Array} path
 */
 export function path(start, dest) {

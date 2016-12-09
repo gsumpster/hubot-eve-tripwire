@@ -5,5 +5,5 @@ export default (robot) => {
 	setInterval(() => {
 		var connections = get_connections();
 		updateWormholes(connections);
-	}, 300000)
+	}, 300000);
 };

@@ -3,7 +3,7 @@
 // Modules
 import request from "request-promise";
 
-// Files
+// Modules (Local)
 import {LOGIN_OPTIONS, CONNECTION_OPTIONS} from "./request_objects.js";
 
 /**

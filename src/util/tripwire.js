@@ -23,8 +23,8 @@ export function get_connections(){
 	.then((chain) => {
 		return chain.map((system) => {
 			var obj = {}; // Create map object, see map.js for object structure
-			obj[system.connectionID] = {};
-			obj[system.connectionID][system.systemID] = 1;
+			obj[system.systemID] = {};
+			obj[system.systemID][system.connectionID] = 1;
 			return obj;
 		});
 	});

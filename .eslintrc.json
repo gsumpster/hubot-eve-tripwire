@@ -1,4 +1,4 @@
-module.exports = {
+{
 	"env": {
 		"es6": true,
 		"node": true
@@ -12,6 +12,7 @@ module.exports = {
 	],
 	"rules": {
 		"mocha/no-exclusive-tests": "error",
+		
 		"indent": [
 			"error",
 			"tab"
@@ -29,4 +30,4 @@ module.exports = {
 			"always"
 		]
 	}
-};
+}
